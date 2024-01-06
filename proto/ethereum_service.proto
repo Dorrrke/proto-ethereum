@@ -30,7 +30,7 @@ message GetLatestBlockResponse {
 }
 
 message VerifyAddressRequest {
-
+    string addr = 1;
 }
 
 message VerifyAddressResponse {
