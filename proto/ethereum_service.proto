@@ -19,7 +19,6 @@ message GetBalanceResponse {
 }
 
 message GetLatestBlockRequest {
-    string ethereumAddr = 1;
 }
 
 message GetLatestBlockResponse {
